@@ -12,13 +12,13 @@ import javax.ws.rs.DefaultValue;
 import javax.ws.rs.core.MediaType;
 import org.apache.log4j.Logger;
 
-@Path("/<add your restful service class name here>")
+@Path("/repo")
 public class SimpleRestService {
 
 	private static final Logger logger = Logger.getLogger(SimpleRestService.class);
 
 	@GET
-	@Path("/<add method name here>")
+	@Path("/getMethod")
     @Produces(MediaType.TEXT_PLAIN)
 	public String getSomething(@QueryParam("request") String request ,
 			 @DefaultValue("1") @QueryParam("version") int version) {
