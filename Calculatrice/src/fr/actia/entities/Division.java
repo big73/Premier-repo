@@ -1,12 +1,13 @@
 package fr.actia.entities;
 
-import org.json.JSONArray;
+
 
 public class Division {
 	
 	public void execute()
 	{
-		JSONArray jsa = new JSONArray();
+		//JSONArray jsa = new JSONArray();
+            System.out.println("Réécriture sur le repo");
 	}
 
 }
