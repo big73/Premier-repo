@@ -17,7 +17,7 @@ import javax.ws.rs.core.Response;
 @Path("brands")
 public class Brands {
     
-    @Path("getMethod/{id}")
+    @Path("getMethod/{name}")
     @GET
     public Response getBrands(@PathParam("name") String name)
     {
